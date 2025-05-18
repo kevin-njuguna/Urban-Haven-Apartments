@@ -69,3 +69,35 @@ header {
   font-size: 2.4rem;
   margin-bottom: 1rem;
 }
+
+.explore-container {
+  background-color: rgb(3, 3, 77);
+  display: flex;
+  
+}
+
+.explore-text{
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+
+.explore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 3rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgba(4, 61, 4, .6);
+}
+
+.explore-button:hover {
+  background-color: rgba(4, 61, 4, .8);;
+}
