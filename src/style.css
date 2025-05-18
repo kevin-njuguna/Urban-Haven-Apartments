@@ -102,9 +102,10 @@ header {
 }
 
 .about-section {
-  background-color: rgb(3, 3, 77);;
+  background-color: rgb(3, 3, 77);
 }
-.about-title, .about-text {
+.about-title,
+.about-text {
   color: white;
   margin: 0 3rem;
   padding: 1rem;
