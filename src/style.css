@@ -43,3 +43,29 @@ header {
   text-decoration: none;
   font-size: 2rem;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: whitesmoke;
+}
+
+.hero-title,
+.hero-tagline {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
