@@ -118,3 +118,70 @@ header {
 .about-text {
   font-size: 1.8rem;
 }
+
+#spaces-card {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#spaces-card h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.space-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.spaces-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spaces-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.spaces-card-body {
+  padding: 1.2rem;
+  text-align: left;
+}
+
+.spaces-card h3 {
+  font-size: 1.7rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.spaces-card .description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.spaces-card .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.spaces-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
