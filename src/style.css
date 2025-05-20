@@ -387,3 +387,59 @@ header {
   margin-top: 2rem;
   font-size: 1.1rem;
 }
+
+@media (max-width: 48em) {
+  .header-container,
+  .contact-container,
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-items {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero-text {
+    top: 30%;
+    left: 5%;
+    font-size: 2rem;
+  }
+
+  .explore-text {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  .explore-button {
+    margin: 2rem;
+  }
+
+  .footer {
+    padding: 1.5rem 1rem 0.5rem;
+  }
+
+  .footer-container > div {
+    margin-bottom: 1rem;
+  }
+
+  .footer-bottom {
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .footer h3,
+  .footer h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer p,
+  .footer a,
+  .footer li {
+    font-size: 1.3rem;
+  }
+}
